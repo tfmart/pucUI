@@ -15,7 +15,7 @@ struct ScheduleDetail : View {
             VStack(alignment: .leading) {
                 ClassDetailSection(title: "Curso", info: chosenClass.nomeCurso.capitalized)
                 if chosenClass.frequencia != nil {
-                    ClassDetailSection(title: "Presença", info: "\(chosenClass.frequencia ?? 0)")
+                    ClassDetailSection(title: "Presença", info: "\(chosenClass.frequencia ?? 0)% de presença")
                 } else {
                     ClassDetailSection(title: "Presença", info: "Sem dados de presença")
                 }
@@ -23,7 +23,7 @@ struct ScheduleDetail : View {
                 ClassDetailSection(title: "Professor(a)", info: chosenClass.professor.capitalized)
                 ClassDetailSection(title: "Sala de Aula", info:"\(chosenClass.predio) | \(chosenClass.sala)")
             }
-        }.navigationBarItem(title: Text(chosenClass.nomeDisciplina.capitalized))
+        }.navigationBarTitle(Text(chosenClass.nomeDisciplina.capitalized), displayMode: .inline)
     }
 }
 
