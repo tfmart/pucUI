@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import SwiftUI
 
-let scheduleData: [JsonSchedule] = load("ScheduleData.json")
+let scheduleData: [Schedule] = load("ScheduleData.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

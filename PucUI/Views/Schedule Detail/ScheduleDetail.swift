@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ScheduleDetail : View {
-    var chosenClass: JsonSchedule
+    var chosenClass: Schedule
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
@@ -21,7 +21,7 @@ struct ScheduleDetail : View {
                 }
                 ClassDetailSection(title: "Data e Hora", info: chosenClass.horario)
                 ClassDetailSection(title: "Professor(a)", info: chosenClass.professor.capitalized)
-                ClassDetailSection(title: "Sala de Aula", info:"\(chosenClass.predio) | \(chosenClass.sala)")
+                ClassDetailSection(title: "Sala de Aula", info:"\(chosenClass.predio.capitalized) | \(chosenClass.sala)")
             }
         }.navigationBarTitle(Text(chosenClass.nomeDisciplina.capitalized), displayMode: .inline)
     }

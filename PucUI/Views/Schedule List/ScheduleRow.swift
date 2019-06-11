@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct ScheduleRow : View {
-    var currentClass: JsonSchedule
+    var currentClass: Schedule
     var body: some View {
         VStack(alignment: .leading) {
             Text(currentClass.nomeDisciplina.capitalized)
             Text(currentClass.horario)
             Text(currentClass.professor.capitalized)
-            Text("\(currentClass.predio) | \(currentClass.sala)")
+            Text("\(currentClass.predio.capitalized) | \(currentClass.sala)")
             if currentClass.frequencia != nil {
                 Text("\(currentClass.frequencia ?? 0)% de frequência")
             } else {

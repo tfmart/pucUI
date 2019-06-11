@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct JsonSchedule: Hashable, Codable {
+struct Schedule: Hashable, Codable {
     let codigoDisciplina, nomeDisciplina, horario, predio: String
     let sala, professor: String
     let diaSemana: Int

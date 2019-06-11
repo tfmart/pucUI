@@ -17,7 +17,7 @@ struct ScheduleList : View {
                     ScheduleRow(currentClass: currentClass)
                 }
             }
-        }.navigationBarItem(title: Text("Hello"))
+        }.navigationBarItem(title: Text("Grade horária"))
     }
 }
 
