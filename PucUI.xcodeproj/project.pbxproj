@@ -22,6 +22,7 @@
 		7C8279F222A71EA70095E5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C8279F022A71EA70095E5FA /* LaunchScreen.storyboard */; };
 		7CBEBFC422A73F4A00229D86 /* ScheduleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEBFC322A73F4A00229D86 /* ScheduleDetail.swift */; };
 		7CBEBFC622A741BB00229D86 /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEBFC522A741BB00229D86 /* ScheduleRow.swift */; };
+		7CD7A23B22B07FCF001946EF /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD7A23A22B07FCF001946EF /* PrivacyPolicyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		7C8279F322A71EA70095E5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBEBFC322A73F4A00229D86 /* ScheduleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetail.swift; sourceTree = "<group>"; };
 		7CBEBFC522A741BB00229D86 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
+		7CD7A23A22B07FCF001946EF /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0A1F4F6422AFDE8100645C07 /* LoginView.swift */,
 				0AFBC65422B00D7A00AB5363 /* InputView.swift */,
 				0AFBC65622B0157300AB5363 /* FooterView.swift */,
+				7CD7A23A22B07FCF001946EF /* PrivacyPolicyView.swift */,
 			);
 			path = "Login View";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				7C43D8F522A75E9F00F927B8 /* Data.swift in Sources */,
 				0AFBC65322B008D800AB5363 /* LoginHeader.swift in Sources */,
 				7C43D8F322A75A0E00F927B8 /* Schedule.swift in Sources */,
+				7CD7A23B22B07FCF001946EF /* PrivacyPolicyView.swift in Sources */,
 				7C8279E622A71EA50095E5FA /* AppDelegate.swift in Sources */,
 				7CBEBFC422A73F4A00229D86 /* ScheduleDetail.swift in Sources */,
 				7C8279E822A71EA50095E5FA /* SceneDelegate.swift in Sources */,

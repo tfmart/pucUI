@@ -10,11 +10,15 @@ import SwiftUI
 
 struct FooterView : View {
     var body: some View {
-        Button(action: {
-            print("Pressed Login")
-        }) {
-            Text("Entrar")
-        }
+        VStack {
+            Button(action: {
+                print(Text("Pressed Login"))
+            }) {
+                Text("Entrar") 
+            }
+            PresentationButton(Text("Política de Privacidade"), destination: PrivacyPolicyView())
+            
+        }.padding()
     }
 }
 
